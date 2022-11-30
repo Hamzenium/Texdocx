@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Texdocx V2.0</title>
+<link rel= "stylesheet" href="style.css"> 
+</head>
+<body>  
+<script> 
+ document.querySelector("add").onclick = function summation(){  
+    var data_1 = document.getElementById("folder").value
+    console.log(data_1)
+    var data_2 = document.getElementById("lfooter").value  
+    console.log(data_2)
+    var data_3 = document.getElementById("mfooter").value 
+    console.log(data_3)
+    var data_4 = document.getElementById("rfooter").value 
+    console.log(data_4)
+    data = eel.path_adder(data_1)
+    eel.path_adder(data,data_2,data_3,data_4,folder)
+}  
+</script>
+<script type = "text/javascript" src = "/eel.js"></script>
+
+<div class="container">
+<form>
+    <h2>Footer Automation Tool</h2>
+    <input type="file" id="folder" webkitdirectory multiple/><br>
+
+    <label for="lfooter">Type the left footer of the file:</label><br>
+    <input type="text" id="lfooter" name="lfooter" value=""><br>
+
+    <label for="lfooter">Type the middle footer of the file:</label><br>
+    <input type="text" id="mfooter" name="mfooter" value=""><br>
+
+    <label for="lfooter">Type the right footer of the file:</label><br>
+    <input type="text" id="rfooter" name="rfooter" value=""><br>
+
+    <!-- <input type="submit"> <button type="button" onclick="javascript:window.close()">Exit </button> -->
+<div class="btn-box">
+    <button type ="button" id = "add" onclick = "summation()">Submit</button>
+</div>
+</form>
+</div> 
+<footer>
+<p>© Ontario, 2022</p>
+ </footer>
+</body>
+
+
+</html>
