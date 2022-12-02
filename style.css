@@ -1,116 +1,44 @@
+<html>
+<head>
+<title>Texdocx V2.0</title>
+<link rel= "stylesheet" href="style.css"> 
+</head>
+<body>  
+<div class="topnav">
+    <a href="#Home">Home</a>
+  <a href="#Header">Header</a>
+  <a class="active" href="#Footer">Footer</a>
+  <a href="#String">String</a>
+  <a href="#About">About</a>
+</div>
+<div class="container">
+<form>
+    <h2>Footer Automation Tool</h2><br>
+    <!-- <input type="file" id="folder" webkitdirectory multiple/><br> -->
+    <label for="folder">Type the folder path:</label><br>
+    <input type="text" id="folder" name="folder" value=""><br>
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Cabin', sans-serif;;
-    /* color: black; */
-}
-body{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("automation_edited.jpg");
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-    border: 10px solid black;
-    border-radius: 10px;
+    <label for="lfooter">Type the left footer of the file:</label><br>
+    <input type="text" id="lfooter" name="lfooter" value=""><br>
+
+    <label for="lfooter">Type the middle footer of the file:</label><br>
+    <input type="text" id="mfooter" name="mfooter" value=""><br>
+
+    <label for="lfooter">Type the right footer of the file:</label><br>
+    <input type="text" id="rfooter" name="rfooter" value=""><br>
+
+<div class="btn-box">
+    <button type ="button" id ='bt'>Submit</button>
+</div>
+</form>
+</div> 
+<!-- <footer>
+<p>© Texdocx</p>
+ </footer> -->
+ <script type ="text/javascript" src = "/eel.js"></script>
+ <script src = "Index.js"></script>
  
-}
-.container{
-    width: 450px;
-    height: 450px;
-    margin : 8% auto;
-    background: #FFFFFF;
-    border-radius: 5px;
-    border-color: #ffad04;
-    position: relative;
-    border: 3px solid blueviolet;
-    border-radius: 10px;
+</body>
 
-     
-}
-h2{
-    text-align: center;
-    margin-bottom: 40 px;
-    color: #777;
 
-} 
-.container form{
-     width: 280px;
-     position: absolute;
-     top: 25px;
-     left: 90px;
-     border-color: #ffad04;
-
-}
-form input{
-    width: 100%;
-    padding: 6px 10px;
-    margin: 12px 0px;
-    box-sizing: border-box;
-    
-}
-
-.btn-box{
-    width: 100%;
-    margin: 30px auto;
-    text-align: center;
-    background: linear-gradient(to right, #ffad04,#ffad06);
-
-}
-
-form button{
-    width: 150px;
-    height: 35px;
-    margin: 0 10px;
-    background: linear-gradient(to right, #ffad04,#ffad06);
-    border-radius: 30px;
-    border: 0;
-    outline: none;
-    color: #fff;
-    cursor: pointer;
-}
-form button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 3px #666;
-    transform: translateY(2px);
-  }
-  
-footer {
-    text-align: right;
-    padding: 3px;
-    background-color: #ffad04;
-    color: white;
-}
-
-header {
-    text-align: right;
-    padding: 3px;
-    background-color: #ffad04;
-    color: white;
-}
-
-.topnav {
-    background-color:#666;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 7px 8px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #333D;
-    color: white;
-  }
+</html>
