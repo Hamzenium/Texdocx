@@ -36,14 +36,14 @@ h2{
 .container form{
      width: 280px;
      position: absolute;
-     top: 50px;
+     top: 25px;
      left: 90px;
      border-color: #ffad04;
 
 }
 form input{
     width: 100%;
-    padding: 4px 0px;
+    padding: 6px 10px;
     margin: 12px 0px;
     box-sizing: border-box;
     
@@ -87,3 +87,30 @@ header {
     background-color: #ffad04;
     color: white;
 }
+
+.topnav {
+    background-color:#666;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #333D;
+    color: white;
+  }
