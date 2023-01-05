@@ -6,3 +6,4 @@ Text automation application created for the Ontario government.
 # Texdocx
 # Texdocx
 # Texdocx
+# Texdocx-V1-2.0
